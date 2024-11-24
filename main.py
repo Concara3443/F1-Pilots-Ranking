@@ -50,9 +50,9 @@ def load_image(url):
         right = width * 0.65
         bottom = height * 0.45
         im = im.crop((left, top, right, bottom))
-        im.thumbnail((200, 200))
+        im.thumbnail((500, 500))
     else:
-        im = im.resize((200, 200))
+        im = im.resize((500, 500))
     
     return ImageTk.PhotoImage(im)
 
