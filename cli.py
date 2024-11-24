@@ -1,8 +1,8 @@
-import math
 """
 This file is an alternative version that performs pilot comparison in the command line (CMD), 
 without external dependencies or other tabs.
 """
+import math
 import random
 from glicko import Glicko2
 
