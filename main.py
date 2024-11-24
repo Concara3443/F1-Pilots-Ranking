@@ -5,7 +5,7 @@ import urllib.request
 import io
 from glicko import Glicko2
 
-ZOOM = False # Set to True to zoom in on the pilot faces
+ZOOM = True # Set to True to zoom in on the pilot faces
 
 class Pilot:
     def __init__(self, name, image_url):
