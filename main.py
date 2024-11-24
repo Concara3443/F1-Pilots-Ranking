@@ -3,7 +3,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 import urllib.request
 import io
-from glicko import Glicko2
+from glicko2 import Glicko2
 
 ZOOM = True # Set to True to zoom in on the pilot faces
 

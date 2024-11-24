@@ -4,7 +4,7 @@ without external dependencies or other tabs.
 """
 import math
 import random
-from glicko import Glicko2
+from glicko2 import Glicko2
 
 class Pilot:
     def __init__(self, name):
